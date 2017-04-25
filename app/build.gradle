@@ -30,7 +30,7 @@ android {
     productFlavors {
 
         connfa {
-            applicationId "com.ls.connfa"
+            applicationId "com.hutchison.gabriel.fcp3"
             versionName "connfa"
 
             defaultConfig {

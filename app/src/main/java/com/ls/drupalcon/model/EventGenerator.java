@@ -139,25 +139,25 @@ public class EventGenerator {
 
         }
 
-        if (!bofs.isEmpty()) {
-
-            List<TimeRange> ranges = mEventManager.getDistrictFavoriteTimeRangeSafe(Event.BOFS_CLASS, favoriteEventIds, day);
-            bofs = getEventItems(eventItemCreator, bofs, ranges);
-            bofs.add(0, new HeaderItem(App.getContext().getString(R.string.bofs)));
-
-        }
-
-        if (!socials.isEmpty()) {
-
-            List<TimeRange> ranges = mEventManager.getDistrictFavoriteTimeRangeSafe(Event.SOCIALS_CLASS, favoriteEventIds, day);
-            socials = getEventItems(eventItemCreator, socials, ranges);
-            socials.add(0, new HeaderItem(App.getContext().getString(R.string.social_events)));
-
-        }
+//        if (!bofs.isEmpty()) {
+//
+//            List<TimeRange> ranges = mEventManager.getDistrictFavoriteTimeRangeSafe(Event.BOFS_CLASS, favoriteEventIds, day);
+//            bofs = getEventItems(eventItemCreator, bofs, ranges);
+//            bofs.add(0, new HeaderItem(App.getContext().getString(R.string.bofs)));
+//
+//        }
+//
+//        if (!socials.isEmpty()) {
+//
+//            List<TimeRange> ranges = mEventManager.getDistrictFavoriteTimeRangeSafe(Event.SOCIALS_CLASS, favoriteEventIds, day);
+//            socials = getEventItems(eventItemCreator, socials, ranges);
+//            socials.add(0, new HeaderItem(App.getContext().getString(R.string.social_events)));
+//
+//        }
 
         result.addAll(schedules);
-        result.addAll(bofs);
-        result.addAll(socials);
+//        result.addAll(bofs);
+//        result.addAll(socials);
 
         return result;
     }
