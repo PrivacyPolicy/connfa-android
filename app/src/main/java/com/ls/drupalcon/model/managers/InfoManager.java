@@ -57,7 +57,7 @@ public class InfoManager extends SynchronousItemManager<InfoItem.General, Object
         Collections.sort(infoItems, new Comparator<InfoItem>() {
             @Override
             public int compare(InfoItem infoItem, InfoItem infoItem2) {
-                return Double.compare(infoItem.getOrder(), infoItem2.getOrder());
+                return Double.compare(infoItem2.getOrder(), infoItem.getOrder());
             }
         });
 
