@@ -102,21 +102,21 @@ public class EventHolderFragment extends Fragment {
         super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.menu_filter, menu);
 
-        MenuItem filter = menu.findItem(R.id.actionFilter);
-        if (filter != null) {
-            updateFilterState(filter);
-        }
+//        MenuItem filter = menu.findItem(R.id.actionFilter);
+//        if (filter != null) {
+//            updateFilterState(filter);
+//        }
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.actionFilter:
-                showFilter();
-                break;
-        }
-        return true;
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.actionFilter:
+//                showFilter();
+//                break;
+//        }
+//        return true;
+//    }
 
 
     @Override

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">fcp3</string>
+    <string name="app_name">FCP3</string>
     <string name="Sessions">Sessions</string>
     <!--<string name="bofs">BoFs</string>-->
     <string name="speakers">Speakers</string>

@@ -21,19 +21,19 @@
 
     <color name="item_selection">#65B6AA</color>
 
-    <color name="primary_dark">#3d4760</color>
-    <color name="splash_primary">#3d4760</color>
-    <color name="primary">#3d4760</color>
+    <color name="primary_dark">#405c7a</color>
+    <color name="splash_primary">#405c7a</color>
+    <color name="primary">#405c7a</color>
 
-    <color name="event_primary">#3d4760</color>
-    <color name="event">#3d4760</color>
+    <color name="event_primary">#f8a200</color>
+    <color name="event">#405c7a</color>
     <color name="event_date">#3d4760</color>
 
-    <color name="speaker_primary">#3d4760</color>
-    <color name="speaker">#3d4760</color>
+    <color name="speaker_primary">#f8a200</color>
+    <color name="speaker">#0000FF</color>
 
-    <color name="favorite">#65B6AA</color>
-    <color name="link">#65B6AA</color>
+    <color name="favorite">#f8a200</color>
+    <color name="link">#f8a200</color>
 
     <color name="placeholder_text">#a3a3a3</color>
 

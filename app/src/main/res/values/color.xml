@@ -21,20 +21,20 @@
 
     <color name="item_selection">#1f3e98</color>
 
-    <color name="primary_dark">#06335b</color>
-    <color name="primary">#06335b</color>
+    <color name="primary_dark">#FF0000</color>
+    <color name="primary">#00FF00</color>
 
-    <color name="event_primary">#06335b</color>
-    <color name="event">#4077aa</color>
-    <color name="event_date">#0b73d4</color>
+    <color name="event_primary">#FF0000</color>
+    <color name="event">#FF00FF</color>
+    <color name="event_date">#FFFF00</color>
 
-    <color name="speaker_primary">#06335b</color>
-    <color name="speaker">#06335b</color>
+    <color name="speaker_primary">#FF0000</color>
+    <color name="speaker">#FF00FF</color>
 
-    <color name="favorite">#1f3e98</color>
-    <color name="link">#1f3e98</color>
-    <color name="navigation">#1f3e98</color>
+    <color name="favorite">#FF0000</color>
+    <color name="link">#00FF00</color>
+    <color name="navigation">#0000FF</color>
 
-    <color name="placeholder_text">#a3a3a3</color>
+    <color name="placeholder_text">#FF0000</color>
 
 </resources>
